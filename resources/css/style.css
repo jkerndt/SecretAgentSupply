@@ -2,13 +2,24 @@ html {
   font-size: 18px;
   font-family: Helvetica;
   color: white;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  width: 960px;
+}
+div {
+  display: block;
 }
 header {
   background-color: black;
-  width: 100%;
-  padding-top: 0;
-  display: fixed;
-  height: auto;
+  width: 960px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+header img {
+  height: 1.5rem;
 }
 .logo {
   height: 1.5rem;
@@ -46,3 +57,26 @@ header h3 {
   font-weight: bold;
   padding-bottom: 2rem;
 }
+.nav {
+  background-color: firebrick;
+  width: 960px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.nav span {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.gallery {
+  display: inline-flex;
+  justify-content: center;
+}
+.img {
+  border: 4px solid black;
+  background-color: white;
+  }
+img {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
